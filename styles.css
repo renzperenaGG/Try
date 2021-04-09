@@ -1,0 +1,148 @@
+/*************General Selector***************/
+body {
+    margin: 0;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    margin-bottom: 0;
+    
+}
+h2 {
+    margin-top: 0;
+    font-family: 'courier new';
+    font-size: 40px;
+    margin-top: 0;
+    color: black;
+}
+h3 {
+    margin-top: 0;
+    font-family: 'courier new';
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+p {
+    font-family:'courier new';
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/****************Div Selector****************/
+.top-container{
+    background-color:#f8ede3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-image: url("images/pattern.png");
+}
+
+.self-container{
+    background-color:#fcffb0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myself-container{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.skill-container{
+    background-color:#feffde;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myskill-container{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.exp-container{
+    background-color:#fcffb0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myexp-container{
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact-container{
+    background-color:#feffde;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.mycontact-container{
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.bottom-container{
+    background-color:#fcffb0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    background-image: url("images/pattern.png");
+    text-align: center;
+}
+/***************Image Selector**************/
+.renz-left {
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 200px;
+    width: 20%;
+    height: 20%
+}
+.renz-right {
+    float: right;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 200px;
+    width: 20%;
+    height: 20%
+}
+.img-project{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+}
+/***************Text Selector**************/
+.footer-link{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
