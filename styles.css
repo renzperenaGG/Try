@@ -1,65 +1,72 @@
 /*************General Selector***************/
 body {
     margin: 0;
+    width: auto;
+    height: auto;
 }
 h1 {
     font-family: 'Lobster', cursive;
     text-align: center;
-    font-size: 100px;
-    color: black;
+    font-size: 120px;
+    color: #4d3300;
     margin-bottom: 0;
-    
 }
 h2 {
     margin-top: 0;
-    font-family: 'courier new';
+    font-family: 'Alegreya', serif;
+    text-align: center;
     font-size: 40px;
-    margin-top: 0;
-    color: black;
+    color: #4d3300;
 }
 h3 {
     margin-top: 0;
-    font-family: 'courier new';
+    font-family: 'Alegreya', serif;
     text-align: center;
     margin-top: 0;
     color: black;
 }
 p {
-    font-family:'courier new';
+    font-family: 'Alegreya', serif;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #015757;
+    font-size: 15px;
 }
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+}
+
 /****************Div Selector****************/
+.body-container{
+    background-color: #f5ffff;
+}
 .top-container{
-    background-color:#f8ede3;
     width: 100%;
     height: 100%;
     position: relative;
     margin: 0px;
     padding: 10px 0px 10px 0px;
-    text-align: center;
-    background-image: url("images/pattern.png");
+    background-image: url("images/pattern2.jpg");
 }
 
 .self-container{
-    background-color:#fcffb0;
     width: 100%;
     height: 100%;
     position: relative;
-    margin: 0px;
     padding: 1px 0px 1px 0px;
     display: inline-block;
 }
 .myself-container{
-    width: 50%;
+    width: 60%;
     margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: center;
     line-height: 2;
 }
 
-
 .skill-container{
-    background-color:#feffde;
     width: 100%;
     height: 100%;
     position: relative;
@@ -67,15 +74,20 @@ p {
     padding: 1px 0px 1px 0px;
     display: inline-block;
 }
-.myskill-container{
-    width: 50%;
+.myskill-container-right{
+    width: 60%;
     margin: 100px auto 100px auto;
-    text-align: right;
+    text-align: justify;
+    line-height: 2;
+}
+.myskill-container-left{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: justify;
     line-height: 2;
 }
 
 .exp-container{
-    background-color:#fcffb0;
     width: 100%;
     height: 100%;
     position: relative;
@@ -91,7 +103,6 @@ p {
 }
 
 .contact-container{
-    background-color:#feffde;
     width: 100%;
     height: 100%;
     position: relative;
@@ -107,31 +118,42 @@ p {
 }
 
 .bottom-container{
-    background-color:#fcffb0;
     width: 100%;
     height: 100%;
     position: relative;
     margin: 0px;
-    padding: 10px 0px 10px 0px;
-    background-image: url("images/pattern.png");
+    padding: 20px 0px 20px 0px;
+    background-image: url("images/pattern2.jpg");
     text-align: center;
 }
 /***************Image Selector**************/
-.renz-left {
-    float: left;
-    margin-right: 30px;
-    padding-bottom: 10px;
-    border-radius: 200px;
-    width: 20%;
-    height: 20%
+.renz-center {
+    margin: 0 auto 50px auto;
+    display: block;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-style: solid #ffffff
 }
 .renz-right {
     float: right;
-    margin-left: 30px;
-    padding-bottom: 10px;
-    border-radius: 200px;
-    width: 20%;
-    height: 20%
+    display: block;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.renz-left {
+    float: left;
+    display: block;
+    padding-right: 10px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 .img-project{
     height: 200px;
@@ -141,8 +163,28 @@ p {
 }
 /***************Text Selector**************/
 .footer-link{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Candal', sans-serif;
     text-decoration: none;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.footer-name{
+    font-family: 'Candal', sans-serif;
+    font-size: 15px;
+}
+.desc-header{
+    margin-bottom: 100px; 
+}
+.subject-header-text {
+    color: #008c8c;
+}
+.sub-header-text-right {
+    text-align: right;
+    font-size: 25px;
+    color: #008c8c;
+}
+.sub-header-text-left {
+    text-align: left;
+    font-size: 25px;
+    color: #008c8c;
 }
